@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bull Dealer - Coming Soon</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            font-weight: 700;
+        }
+        
+        .logo-placeholder {
+            font-size: 5rem;
+            margin: 20px 0;
+            color: #3498db;
+        }
+        
+        .tagline {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: #7f8c8d;
+            font-weight: 300;
+        }
+        
+        .coming-soon {
+            font-size: 1.8rem;
+            margin: 30px 0;
+            color: #e74c3c;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        
+        .progress-bar {
+            height: 10px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+            margin: 30px 0;
+            overflow: hidden;
+        }
+        
+        .progress {
+            height: 100%;
+            width: 75%;
+            background: linear-gradient(90deg, #3498db, #2980b9);
+            animation: progress 2s ease-in-out;
+        }
+        
+        @keyframes progress {
+            from { width: 0; }
+            to { width: 75%; }
+        }
+        
+        .contact {
+            margin-top: 40px;
+            font-size: 1.1rem;
+        }
+        
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .contact a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        
+        .social-icons {
+            margin-top: 30px;
+        }
+        
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #7f8c8d;
+            font-size: 1.5rem;
+            transition: color 0.3s, transform 0.3s;
+        }
+        
+        .social-icons a:hover {
+            color: #3498db;
+            transform: translateY(-3px);
+        }
+        
+        footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #95a5a6;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .logo-placeholder {
+                font-size: 4rem;
+            }
+            
+            .tagline {
+                font-size: 1.2rem;
+            }
+            
+            .container {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-placeholder">
+            <i class="fas fa-bull"></i>
+        </div>
+        
+        <h1>Bull Dealer</h1>
+        <p class="tagline">Your trusted partner in financial markets</p>
+        
+        <div class="coming-soon">COMING SOON</div>
+        
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        
+        <p>We're working hard to bring you an exceptional experience.</p>
+        <p>Our website is under construction, but we're getting ready to launch soon.</p>
+        
+        <div class="contact">
+            <p>For inquiries, please contact us at: <a href="mailto:info@bulldealer.com">info@bulldealer.com</a></p>
+        </div>
+        
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 Bull Dealer. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
